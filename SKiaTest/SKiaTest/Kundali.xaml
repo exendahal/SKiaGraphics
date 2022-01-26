@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SKiaTest.Kundali"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:sk="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+    Title="Kundali"
+    Padding="20">
+    <ContentPage.Content>
+        <sk:SKCanvasView
+            x:Name="canvasView"
+            Grid.Row="1"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            PaintSurface="OnCanvasViewPaintSurface" />
+    </ContentPage.Content>
+</ContentPage>
